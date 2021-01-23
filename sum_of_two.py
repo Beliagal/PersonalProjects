@@ -32,13 +32,12 @@ def sum_of_two (array, result):
                 break
 
             if value_sum == result:
-                print ('True')
-                break
+                return (print ('True'))
                 
         len_init += 1
         
         if len_init == max_len and value_sum != result:
-            print ('False')
+            return (print ('False'))
 
 sum_of_two ([1, 3, 4, 9], 8)
 sum_of_two ([1, 2, 4, 4], 8)
